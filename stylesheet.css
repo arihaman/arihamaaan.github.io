@@ -1,0 +1,11 @@
+.title {
+    background-color: aliceblue;
+    color: #4c6be4;
+    font-family:"Comic Sans MS";
+  }
+.disp-img{
+    background-image:url("bluenail.jpg");      /* 画像のURLを指定      */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
+    width:auto;                                   /* 横幅のサイズを指定    */
+    height: 600px;                                 /* 縦幅のサイズを指定    */
+}
