@@ -1,11 +1,62 @@
-.title {
-    background-color: aliceblue;
-    color: #4c6be4;
-    font-family:"Comic Sans MS";
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9; /* 背景を淡いグレーに */
+    color: #333;
   }
-.disp-img{
-    background-image:url("bluenail.jpg");      /* 画像のURLを指定      */
-    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
-    width:auto;                                   /* 横幅のサイズを指定    */
-    height: 600px;                                 /* 縦幅のサイズを指定    */
-}
+  
+  .title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .button-container {
+    margin: 30px 0;
+  }
+  
+  .circle-button {
+    width: 60px; /* サイズを少し大きく */
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #ddd; /* ボタンを際立たせる枠線 */
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* おしゃれな影 */
+    transition: transform 0.2s, box-shadow 0.2s; /* ホバーアニメーション */
+  }
+  
+  .circle-button:hover {
+    transform: scale(1.1); /* ホバー時に拡大 */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* ホバー時に影を強調 */
+  }
+  
+  .blue { background-color: blue; }
+  .red { background-color: red; }
+  .pink { background-color: pink; }
+  .orange { background-color: orange; }
+  .green { background-color: green; }
+  .purple { background-color: purple; }
+  .black { background-color: black; }
+  .white { 
+    background-color: white; 
+    border: 2px solid #ccc; /* 白いボタンに枠線を追加 */
+  }
+  
+  .image-gallery {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-gallery img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 8px; /* 画像の角を丸く */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 画像の影 */
+  }
