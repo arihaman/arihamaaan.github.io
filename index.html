@@ -19,8 +19,16 @@
       <button class="circle-button black" onclick="showImages('black')"></button>
       <button class="circle-button white" onclick="showImages('white')"></button>
     </div>
-
+    
     <div id="image-gallery" class="image-gallery"></div>
+
+    <!-- カート表示エリア -->
+    <div id="cart">
+        <h3>カート</h3>
+        <ul id="cart-list"></ul>
+        <p><strong>合計金額: <span id="total-price">0</span> 円</strong></p>
+        <button onclick="clearCart()">カートを空にする</button>
+    </div>
 
     <script src="script.js"></script>
   </body>
